@@ -1,0 +1,61 @@
+Map Maker
+by Casey Yardley
+----------------------
+INTRO
+----------------------
+This Python and Pygame application allows you to create 2d maps using custom sprites.
+You can easily edit the sprite size, and the width and height of the map.
+----------------------
+SPRITES
+----------------------
+You can put your sprites in the /images/ folder.
+They must be .PNG format.
+They must all be the same width and height.
+The width and height must be equal.
+They must be named numericaly.
+1.png, 2.png, 3.png, 4.png,.....,34.png, etc
+YOU MUST NOT LEAVE GAPS IN NUMBERS...!
+----------------------
+MODE 1 - CREATE NEW MAP
+----------------------
+To create a new map, this is what you do.
+in /data/, create a new text file, and name it "map.txt". (rename old map).
+Open the file, and type in 4 numbers, one on each line:
+-World Width (Width of the Map)
+-World Height (Height of the Map)
+-Fill Sprite (Sprite the game will generate as a solid starting background)
+-Tile Width/Height
+EXAMPLE:
+---
+50
+50
+2
+32
+---
+Creates a map with 50x50 tiles, filled in with tile 2, and the tiles are 32 pixles.
+
+
+Go change the mode to 1, and run the program.
+After a second, the program will exit.
+Now your new map is done :)
+
+----------------------
+MODE 2 - EDIT MAP
+----------------------
+You edit the map that is called "map.txt" in /data/.
+Click on the screen to "paint" tiles.
+You can move around your map using the arrow keys.
+The titlebar of your application has your x/y coordinates. (of the top right corner)
+
+THE PROGRAM IS NOT FINISHED. IT WILL BE EASER TO TO THE FOLLOWING WHEN IT IS DONE:
+-To Change Tile "brush":
+Press Space.
+Go to the Console Window. (If it is not open, you are going have to run the program from consol/terminal. Sorry :()
+Type "b". Enter.
+Type the number of tile you want. Enter.
+Go back to main window. Your brush is changed.
+-To SAVE:
+Press Space.
+Go to the Console Window. 
+Type "s". Enter.
+It should save. You can exit or continue editing.
